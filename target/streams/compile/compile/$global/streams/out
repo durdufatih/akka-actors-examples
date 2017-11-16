@@ -1,0 +1,29 @@
+[0m[[0m[33mwarn[0m] [0m[0m/Users/fatih/Documents/milliyetemlak/akka-full-example/src/main/scala/FolderScannerActor.scala:26:21: non-variable type argument String in type pattern List[String] (the underlying of List[String]) is unchecked since it is eliminated by erasure[0m
+[0m[[0m[33mwarn[0m] [0m[0m    case wordsList: List[String] => {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/fatih/Documents/milliyetemlak/akka-full-example/src/main/scala/tutorial/Example1.scala:8:24: not found: value ActorMaterializer[0m
+[0m[[0m[31merror[0m] [0m[0m    implicit val mat = ActorMaterializer()[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/fatih/Documents/milliyetemlak/akka-full-example/src/main/scala/tutorial/Example1.scala:10:18: not found: value Source[0m
+[0m[[0m[31merror[0m] [0m[0m    val source = Source(0 to 20000000)[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/fatih/Documents/milliyetemlak/akka-full-example/src/main/scala/tutorial/Example1.scala:12:16: not found: value Flow[0m
+[0m[[0m[31merror[0m] [0m[0m    val flow = Flow[Int].map(_.toString())[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/fatih/Documents/milliyetemlak/akka-full-example/src/main/scala/tutorial/Example1.scala:14:16: not found: value Sink[0m
+[0m[[0m[31merror[0m] [0m[0m    val sink = Sink.foreach[String](println(_))[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/fatih/Documents/milliyetemlak/akka-full-example/src/main/scala/tutorial/test.scala:5:28: not found: type Actor[0m
+[0m[[0m[31merror[0m] [0m[0mclass WeatherActor extends Actor {[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/fatih/Documents/milliyetemlak/akka-full-example/src/main/scala/tutorial/test.scala:6:25: not found: type Receive[0m
+[0m[[0m[31merror[0m] [0m[0m  override def receive: Receive = {[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/fatih/Documents/milliyetemlak/akka-full-example/src/main/scala/tutorial/test.scala:15:25: not found: value XML[0m
+[0m[[0m[31merror[0m] [0m[0m      val xmlResponse = XML.loadString(response)[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/fatih/Documents/milliyetemlak/akka-full-example/src/main/scala/tutorial/test.scala:19:18: not found: value ActorSystem[0m
+[0m[[0m[31merror[0m] [0m[0m    val system = ActorSystem("WeatherSystem")[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[31merror[0m] [0m[0m8 errors found[0m
